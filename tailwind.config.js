@@ -9,6 +9,9 @@ module.exports = {
         "navbar-color": "#b08ead",
         "border-top-color": "#d6bbd3",
       },
+      screens: {
+        seda: "304px",
+      },
     },
   },
 
