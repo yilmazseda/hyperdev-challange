@@ -10,7 +10,7 @@ module.exports = {
         "border-top-color": "#d6bbd3",
       },
       screens: {
-        seda: "304px",
+        "size-992": "992px",
       },
     },
   },
