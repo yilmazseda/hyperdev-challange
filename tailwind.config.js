@@ -4,10 +4,14 @@ module.exports = {
     extend: {
       fontFamily: {
         fontNavbar: "'Cormorant Garamond',sans-serif",
+        fontCard: "'Cormorant Garamond', serif",
       },
       colors: {
         "navbar-color": "#b08ead",
         "border-top-color": "#d6bbd3",
+        "textbox-bg": "  #ceb3cb ",
+        "card-textcolor": "#fff",
+        "icon-bg": "#ba9fb7",
       },
       screens: {
         "size-992": "992px",
