@@ -4,20 +4,20 @@ import { Images } from "../../utilies/images";
 
 const Card = () => {
   return (
-    <div class="max-w-sm  overflow-hidden shadow-lg bg-textbox-bg">
+    <div className="max-w-sm  overflow-hidden shadow-lg bg-textbox-bg">
       <img
-        class="w-full hover:scale-125 "
+        className="w-full hover:scale-125 "
         src={Images.cardImage1}
         alt="Sunset in the mountains"
       />
 
-      <div class="px-6 pt-4 ">
-        <div class="font-medium font-fontNavbar text-white text-2xl mb-2">
+      <div className="px-6 pt-4 ">
+        <div className="font-medium font-fontNavbar text-white text-2xl mb-2">
           About me
         </div>
       </div>
-      <div class="px-6  pb-2">
-        <span class="inline-block rounded-full  py-1 text-xl font-semibold italic font-fontCard text-card-textcolor mr-2 mb-2">
+      <div className="px-6  pb-2">
+        <span className="inline-block rounded-full  py-1 text-xl font-semibold italic font-fontCard text-card-textcolor mr-2 mb-2">
           Learn more
         </span>
       </div>

@@ -4,12 +4,12 @@ import React from "react";
 // import basket from "../../assets/images/basket.png";
 
 const Icon = () => {
-  return (
-    <div className="container h-screen max-w-full">
-      <div className="m-auto my-28 w-64 max-w-lg items-center justify-center overflow-hidden  bg-border-top-color ">
-        <div className="h-24 bg-"></div>
+  //Buradaki başlık görsel ve içerik alanları props'lar ile tanımlanacak
 
-        <div className="-mt-20 flex justify-center items-center h-24 w-24 rounded-full m-auto bg-icon-bg text-white">
+  return (
+    <div className="container">
+      <div className="m-auto  mt-9 w-64 max-w-lg items-center justify-center overflow-hidden  bg-transparent pa">
+        <div className=" flex justify-center items-center h-24 w-24 rounded-full m-auto bg-icon-bg text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-10 w-10"
@@ -19,7 +19,7 @@ const Icon = () => {
             stroke-width="1"
           >
             <path
-              stroke-linecap="round"
+              strokeLinecap="round"
               stroke-linejoin="round"
               d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
             />
