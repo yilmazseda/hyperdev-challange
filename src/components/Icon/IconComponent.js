@@ -1,7 +1,7 @@
 //Card componenti çağırılacak
 
 import React from "react";
-import Icon from "./Icon";
+import Icons from "./Icons";
 const IconComponent = () => {
   return (
     <div className="w-full h-60 bg-border-top-color  ">
