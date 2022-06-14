@@ -2,27 +2,36 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex  w-full justify-between bg-textbox-bg  items-center  mx-auto  p-8">
+    <div className="flex  w-full justify-between bg-textbox-bg  items-center  mx-auto  p-8 mb-12">
       <div class="flex flex-col justify-between">
         <div className="mb-2.5	">
-          <label for="helper-checkbox" class="font-bold text-white text-lg ">
-            EMAIL
+          <label
+            for="helper-checkbox"
+            class="font-bold text-white text-lg uppercase"
+          >
+            email
           </label>
           <div class="text-white  font-fontNavbar text-2xl cursor-pointer">
             support@website.com
           </div>
         </div>
         <div className="mb-2.5	">
-          <label for="helper-checkbox" class="font-bold text-white text-base ">
-            PHONE
+          <label
+            for="helper-checkbox"
+            class="font-bold text-white text-base uppercase "
+          >
+            phone
           </label>
           <div class="text-white font-fontNavbar cursor-pointer text-2xl">
             800-123-456
           </div>
         </div>
         <div className="mb-2.5	">
-          <label for="helper-checkbox" class="font-bold text-white text-base ">
-            ADDRESS
+          <label
+            for="helper-checkbox"
+            class="font-bold text-white text-base uppercase"
+          >
+            address
           </label>
           <div class="text-white block font-fontNavbar cursor-pointer text-2xl">
             23 Evergreen Street
@@ -38,9 +47,9 @@ const Contact = () => {
               <div class=" text-sm">
                 <label
                   for="helper-checkbox"
-                  class="font-bold text-white text-base "
+                  class="font-bold text-white text-base uppercase"
                 >
-                  ADDRESS
+                  Adress
                 </label>
                 <p
                   id="helper-checkbox-text"

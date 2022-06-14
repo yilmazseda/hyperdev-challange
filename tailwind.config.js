@@ -16,6 +16,7 @@ module.exports = {
         "footer-bg": "#c9adc6",
         "product-title": "#5f4d5d",
         "product-price": "#b0b0b0",
+        "subscribe-color": "#b99bb6",
       },
       screens: {
         "size-992": "992px",
