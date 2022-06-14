@@ -6,9 +6,9 @@ const IconComponent = () => {
   return (
     <div className="w-full h-60 bg-border-top-color  ">
       <div className="  flex items-stretch ">
-        <Icon />
-        <Icon />
-        <Icon />
+        <Icons />
+        <Icons />
+        <Icons />
       </div>
     </div>
   );

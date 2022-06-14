@@ -4,12 +4,17 @@ import { Images } from "../../utilies/images";
 
 const Cards = () => {
   return (
-    <div className="max-w-sm  overflow-hidden shadow-lg bg-textbox-bg mr-9">
-      <img
-        className="w-full hover:scale-125 "
-        src={Images.cardImage1}
-        alt="Sunset in the mountains"
-      />
+    <div
+      className="max-w-sm  overflow-hidden shadow-lg bg-textbox-bg mr-9 
+    "
+    >
+      <a href={"#"} className={"relative flex overflow-hidden"}>
+        <img
+          className="w-full hover:scale-125 "
+          src={Images.cardImage1}
+          alt="Sunset in the mountains"
+        />
+      </a>
 
       <div className="px-6 pt-4 ">
         <div className="font-medium font-fontNavbar text-white text-2xl mb-2">

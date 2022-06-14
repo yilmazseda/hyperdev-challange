@@ -14,6 +14,8 @@ module.exports = {
         "card-textcolor": "#fff",
         "icon-bg": "#ba9fb7",
         "footer-bg": "#c9adc6",
+        "product-title": "#5f4d5d",
+        "product-price": "#b0b0b0",
       },
       screens: {
         "size-992": "992px",
