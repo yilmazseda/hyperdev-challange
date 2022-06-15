@@ -2,7 +2,7 @@ import React from "react";
 import { Images } from "../../utilies/images";
 //ZOOM OLDUĞU ZAMAN ALTTAKİ ELEMANI ENGELLİYOR !!!
 
-const Cards = () => {
+const Card = () => {
   return (
     <div
       className="max-w-sm  overflow-hidden shadow-lg bg-textbox-bg mr-9 
@@ -30,4 +30,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Card;

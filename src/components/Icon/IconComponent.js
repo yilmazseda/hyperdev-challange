@@ -1,14 +1,14 @@
 //Card componenti çağırılacak
 
 import React from "react";
-import Icons from "./Icons";
+import Icon from "./Icon";
 const IconComponent = () => {
   return (
     <div className="w-full h-60 bg-border-top-color  ">
       <div className="  flex items-stretch ">
-        <Icons />
-        <Icons />
-        <Icons />
+        <Icon />
+        <Icon />
+        <Icon />
       </div>
     </div>
   );

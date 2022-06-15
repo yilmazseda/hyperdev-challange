@@ -5,6 +5,7 @@ import cardImage2 from "../assets/images/card-img2.png";
 import cardImage3 from "../assets/images/card-img3.png";
 import footerLogo from "../assets/images/footer-logo.png";
 import chair from "../assets/images/chair.jpeg";
+import blogleft1 from "../assets/images/blogleft1.jpeg";
 export const Images = {
   logo,
   basket,
@@ -13,4 +14,5 @@ export const Images = {
   cardImage3,
   footerLogo,
   chair,
+  blogleft1,
 };

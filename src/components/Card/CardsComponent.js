@@ -1,15 +1,15 @@
 import React from "react";
-import Cards from "./Cards";
-const CardComponent = () => {
+import Card from "./Card";
+const CardsComponent = () => {
   return (
     <div className="w-full h-60 ">
       <div className=" flex items-stretch justify-center ">
-        <Cards />
-        <Cards />
-        <Cards />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
 };
 
-export default CardComponent;
+export default CardsComponent;
