@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 // import ContactForm from "../../components/ContactForm/Contact";
 // import CardsComponent from "../../components/Card/CardsComponent";
 // import Footer from "../../components/Footer/Footer";
-// import IconComponent from "../../components/Icon/IconComponent";
+import IconComponent from "../../components/Icon/IconComponent";
 import LeftBlogCard from "../../components/BlogCard/LeftBlogCard";
 // import ProductList from "../../components/Product/ProductList";
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
     <div className="flex h-screen ">
       <div className="m-auto w-full h-screen rounded">
         <Navbar />
-        {/* <IconComponent /> */}
+        <IconComponent />
 
         <LeftBlogCard />
       </div>
